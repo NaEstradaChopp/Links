@@ -26,6 +26,7 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
+  overflow: hidden;
 }
 
 body * {
@@ -38,6 +39,7 @@ body * {
   max-width: 360px;
   margin: 56px auto 0px;
   padding: 0px 24px;
+  overflow: hidden;
 }
 
 /*switch*/
@@ -133,8 +135,12 @@ ul li a:hover {
 .social-links {
   display: flex;
   justify-content: center;
-  padding: 24px 0;
   font-size: 24px;
+  padding: 16px 0;
+
+  @media screen and (min-width: 700px) {
+    padding: 24px 0;
+  }
 }
 
 .social-links a {
@@ -152,8 +158,11 @@ ul li a:hover {
 /*Rodapé*/
 footer {
   text-align: center;
-  padding: 24px 0;
   font-size: 14px;
+
+  @media screen and (min-width: 700px) {
+    padding: 24px 0;
+  }
 }
 
 footer a {
