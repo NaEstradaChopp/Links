@@ -37,7 +37,7 @@ body * {
 #container {
   width: 100%;
   max-width: 360px;
-  margin: 56px auto 0px;
+  margin: 40px auto 0px;
   padding: 0px 24px;
   overflow: hidden;
 }
